@@ -1,0 +1,17 @@
+.back {
+  background-color: rgb(109, 4, 4);
+  
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.h3 {
+  text-align: center;
+}
+
+.border {
+  color: rgb(197, 241, 38);
+  width: 30rem;
+  padding: 20rem;
+}

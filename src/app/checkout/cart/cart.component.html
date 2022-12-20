@@ -1,0 +1,16 @@
+<div *ngFor="let product of cart.products" style="margin-left: 45%;">
+
+    <div class="row card" style="max-width: 350px;">
+        <div class="row g-0">
+            <div class="col-md-3 align-self-center">
+                <img src="../../assets/images/{{product.img}}" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{product.name}}</h5>
+                <p class="card-text">{{product.cuisine}} Cuisine</p>
+                <p class="card-text"><small class="text-muted">Quantity: {{product.qty}}</small></p>
+            </div>
+        </div>
+    </div>
+
+</div>
